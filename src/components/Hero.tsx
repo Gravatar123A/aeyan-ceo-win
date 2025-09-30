@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="text-center animate-fade-in-up">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card/90 backdrop-blur-sm shadow-card mb-6 animate-scale-in">
-            <span className="text-sm font-semibold text-primary">Running for CEO</span>
+            <span className="text-sm font-semibold text-primary">Community Enrichment Officer</span>
           </div>
 
           {/* Main heading */}
