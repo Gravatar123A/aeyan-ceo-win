@@ -43,6 +43,9 @@ const Vision = () => {
           <h2 className="text-4xl sm:text-5xl font-extrabold text-foreground mb-4">
             What I'll Do as CEO
           </h2>
+          <p className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+            The project I am working on:
+          </p>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
             I'm building a <span className="font-semibold text-primary">Student Dashboard and Communication Platform</span> that will revolutionize how we study, collaborate, and excel together.
           </p>

@@ -24,7 +24,7 @@ const Hero = () => {
 
           {/* Tagline */}
           <p className="text-xl sm:text-2xl lg:text-3xl text-primary-foreground/90 font-semibold mb-4 max-w-3xl mx-auto">
-            Making School Life Better, One Innovation at a Time
+            Making School Life Better, Making things easier for you.
           </p>
 
           <p className="text-lg sm:text-xl text-primary-foreground/80 mb-12 max-w-2xl mx-auto">

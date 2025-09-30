@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { useNavigate } from "react-router-dom";
 import { Vote, CheckCircle, Sparkles, Heart } from "lucide-react";
 
 const CallToAction = () => {
+  const navigate = useNavigate();
   return (
     <section id="cta" className="py-20 px-4 sm:px-6 lg:px-8 gradient-hero relative overflow-hidden">
       {/* Background Effects */}
@@ -52,6 +54,7 @@ const CallToAction = () => {
               <Button
                 size="lg"
                 className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-elegant hover:shadow-glow transition-smooth hover:scale-110 text-xl px-12 py-8 font-bold"
+                onClick={() => navigate('/voting')}
               >
                 Vote for Muhammad Aeyan Saeed
               </Button>
