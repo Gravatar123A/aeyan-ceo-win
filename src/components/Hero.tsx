@@ -35,15 +35,14 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button
               size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-elegant hover:shadow-glow transition-smooth hover:scale-105 text-lg px-8 py-6"
+              className="bg-accent hover:bg-accent/90 text-white shadow-elegant hover:shadow-glow transition-smooth hover:scale-105 text-lg px-8 py-6 font-bold"
               onClick={() => document.getElementById('vision')?.scrollIntoView({ behavior: 'smooth' })}
             >
               See My Vision
             </Button>
             <Button
               size="lg"
-              variant="outline"
-              className="bg-card/90 backdrop-blur-sm border-2 border-primary-foreground/20 text-primary-foreground hover:bg-card hover:border-primary-foreground/40 transition-smooth hover:scale-105 text-lg px-8 py-6"
+              className="bg-card text-card-foreground border-2 border-card-foreground/20 hover:bg-card-foreground hover:text-card transition-smooth hover:scale-105 text-lg px-8 py-6 font-semibold"
               onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Vote Now

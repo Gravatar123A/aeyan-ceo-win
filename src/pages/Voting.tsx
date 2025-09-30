@@ -18,7 +18,7 @@ const Voting = () => {
         {/* Back Button */}
         <Button
           variant="outline"
-          className="mb-6 bg-card/90 backdrop-blur-sm border-primary-foreground/20 text-primary-foreground hover:bg-card hover:border-primary-foreground/40"
+          className="mb-6 bg-card border-2 border-card-foreground/30 text-card-foreground hover:bg-card-foreground hover:text-card transition-smooth"
           onClick={() => navigate('/')}
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -72,14 +72,14 @@ const Voting = () => {
             </div>
 
             {/* CTA */}
-            <div className="bg-gradient-accent rounded-2xl p-8 text-accent-foreground shadow-elegant">
-              <h3 className="text-3xl font-extrabold mb-3">
+            <div className="bg-primary rounded-2xl p-8 shadow-elegant">
+              <h3 className="text-3xl font-extrabold mb-3 text-primary-foreground">
                 Make Sure to Vote for
               </h3>
-              <p className="text-4xl sm:text-5xl font-black mb-4">
+              <p className="text-4xl sm:text-5xl font-black mb-4 text-primary-foreground">
                 Muhammad Aeyan Saeed
               </p>
-              <p className="text-lg opacity-90">
+              <p className="text-lg text-primary-foreground/90">
                 Together, we'll make our school better! 🚀
               </p>
             </div>
