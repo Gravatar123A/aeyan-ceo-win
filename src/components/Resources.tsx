@@ -8,15 +8,15 @@ const Resources = () => {
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
-          <div className="text-center mb-12 animate-fade-in-up">
+          <div className="text-center mb-12 animate-fade-in-up px-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 mb-4">
-              <FileText className="w-5 h-5 text-primary" />
-              <span className="text-sm font-semibold text-primary">Free Study Resources</span>
+              <FileText className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
+              <span className="text-xs sm:text-sm font-semibold text-primary">Free Study Resources</span>
             </div>
-            <h2 className="text-4xl sm:text-5xl font-extrabold text-foreground mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground mb-4">
               Online Notes & Study Materials
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-base sm:text-lg text-muted-foreground">
               Access comprehensive study notes that I actively update and upload to help you succeed.
             </p>
           </div>
@@ -28,11 +28,11 @@ const Resources = () => {
                 <FolderOpen className="w-10 h-10 text-primary" />
               </div>
 
-              <h3 className="text-2xl sm:text-3xl font-bold text-card-foreground mb-4">
+              <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-card-foreground mb-4">
                 Complete Study Drive
               </h3>
 
-              <p className="text-muted-foreground mb-8 max-w-2xl leading-relaxed">
+              <p className="text-sm sm:text-base text-muted-foreground mb-8 max-w-2xl leading-relaxed">
                 Get instant access to organized notes, study guides, and resources for all your subjects. I'm continuously adding new materials to ensure you have everything you need to excel.
               </p>
 
@@ -54,17 +54,17 @@ const Resources = () => {
 
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-card hover:shadow-elegant transition-smooth hover:scale-105 text-lg px-8 py-6"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-card hover:shadow-elegant transition-smooth hover:scale-105 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 w-full sm:w-auto"
                 asChild
               >
                 <a
                   href="https://drive.google.com/drive/u/2/folders/14nkJlpF1w7CKZNhhvV567uQN8nKQXjVG"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2"
+                  className="inline-flex items-center gap-2 justify-center"
                 >
                   Access Study Materials
-                  <ExternalLink className="w-5 h-5" />
+                  <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
               </Button>
             </div>

@@ -24,10 +24,10 @@ const CallToAction = () => {
               </div>
 
               {/* Heading */}
-              <h2 className="text-4xl sm:text-5xl font-extrabold text-card-foreground mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-card-foreground mb-4">
                 Your Vote Matters
               </h2>
-              <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
                 Together, we can transform our school experience and build a better future for all students.
               </p>
 
@@ -53,7 +53,7 @@ const CallToAction = () => {
               {/* CTA Button */}
               <Button
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-elegant hover:shadow-glow transition-smooth hover:scale-110 text-xl px-12 py-8 font-bold"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-elegant hover:shadow-glow transition-smooth hover:scale-110 text-base sm:text-lg md:text-xl px-6 sm:px-10 md:px-12 py-4 sm:py-6 md:py-8 font-bold w-full sm:w-auto"
                 onClick={() => navigate('/voting')}
               >
                 Vote for Muhammad Aeyan Saeed

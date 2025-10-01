@@ -18,7 +18,7 @@ const Voting = () => {
         {/* Back Button */}
         <Button
           variant="outline"
-          className="mb-6 bg-card border-2 border-card-foreground/30 text-card-foreground hover:bg-card-foreground hover:text-card transition-smooth"
+          className="mb-6 bg-card border-2 border-card-foreground/30 text-card-foreground hover:bg-card-foreground hover:text-card transition-smooth text-sm sm:text-base"
           onClick={() => navigate('/')}
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -34,52 +34,52 @@ const Voting = () => {
             </div>
 
             {/* Heading */}
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-card-foreground mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-card-foreground mb-6">
               Voting Information
             </h1>
 
             {/* Voting Details */}
-            <div className="space-y-6 mb-10">
-              <div className="p-6 rounded-xl bg-primary/5 border-2 border-primary/20">
-                <div className="flex items-center justify-center gap-3 mb-3">
-                  <Calendar className="w-6 h-6 text-primary" />
-                  <h2 className="text-2xl font-bold text-card-foreground">
+            <div className="space-y-4 sm:space-y-6 mb-8 sm:mb-10">
+              <div className="p-4 sm:p-6 rounded-xl bg-primary/5 border-2 border-primary/20">
+                <div className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-3">
+                  <Calendar className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+                  <h2 className="text-xl sm:text-2xl font-bold text-card-foreground">
                     Thursday, 2nd October
                   </h2>
                 </div>
-                <p className="text-muted-foreground">Mark your calendar!</p>
+                <p className="text-sm sm:text-base text-muted-foreground">Mark your calendar!</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-accent/5 border-2 border-accent/20">
-                <div className="flex items-center justify-center gap-3 mb-3">
-                  <Clock className="w-6 h-6 text-accent" />
-                  <h2 className="text-2xl font-bold text-card-foreground">
+              <div className="p-4 sm:p-6 rounded-xl bg-accent/5 border-2 border-accent/20">
+                <div className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-3">
+                  <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-accent" />
+                  <h2 className="text-xl sm:text-2xl font-bold text-card-foreground">
                     During School Timings
                   </h2>
                 </div>
-                <p className="text-muted-foreground">Voting will take place throughout the school day</p>
+                <p className="text-sm sm:text-base text-muted-foreground">Voting will take place throughout the school day</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-primary/5 border-2 border-primary/20">
-                <div className="flex items-center justify-center gap-3 mb-3">
-                  <MapPin className="w-6 h-6 text-primary" />
-                  <h2 className="text-2xl font-bold text-card-foreground">
+              <div className="p-4 sm:p-6 rounded-xl bg-primary/5 border-2 border-primary/20">
+                <div className="flex items-center justify-center gap-2 sm:gap-3 mb-2 sm:mb-3">
+                  <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+                  <h2 className="text-xl sm:text-2xl font-bold text-card-foreground">
                     At School
                   </h2>
                 </div>
-                <p className="text-muted-foreground">Check with your teachers for exact location</p>
+                <p className="text-sm sm:text-base text-muted-foreground">Check with your teachers for exact location</p>
               </div>
             </div>
 
             {/* CTA */}
-            <div className="bg-primary rounded-2xl p-8 shadow-elegant">
-              <h3 className="text-3xl font-extrabold mb-3 text-primary-foreground">
+            <div className="bg-primary rounded-2xl p-6 sm:p-8 shadow-elegant">
+              <h3 className="text-2xl sm:text-3xl font-extrabold mb-3 text-primary-foreground">
                 Make Sure to Vote for
               </h3>
-              <p className="text-4xl sm:text-5xl font-black mb-4 text-primary-foreground">
+              <p className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 text-primary-foreground break-words">
                 Muhammad Aeyan Saeed
               </p>
-              <p className="text-lg text-primary-foreground/90">
+              <p className="text-base sm:text-lg text-primary-foreground/90">
                 Together, we'll make our school better! 🚀
               </p>
             </div>
@@ -87,8 +87,8 @@ const Voting = () => {
         </Card>
 
         {/* Reminder */}
-        <div className="mt-8 text-center text-primary-foreground/90 animate-fade-in-up">
-          <p className="text-lg font-medium">
+        <div className="mt-8 text-center text-primary-foreground/90 animate-fade-in-up px-4">
+          <p className="text-base sm:text-lg font-medium">
             See you on voting day! Your support means everything. 🙏
           </p>
         </div>

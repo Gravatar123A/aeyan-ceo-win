@@ -18,31 +18,31 @@ const Hero = () => {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-primary-foreground mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary-foreground mb-6 leading-tight px-4">
             Muhammad Aeyan Saeed
           </h1>
 
           {/* Tagline */}
-          <p className="text-xl sm:text-2xl lg:text-3xl text-primary-foreground/90 font-semibold mb-4 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 font-semibold mb-4 max-w-3xl mx-auto px-4">
             Making School Life Better, Making things easier for you.
           </p>
 
-          <p className="text-lg sm:text-xl text-primary-foreground/80 mb-12 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-primary-foreground/80 mb-12 max-w-2xl mx-auto px-4">
             Transforming how we study, collaborate, and succeed together
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center mb-16 w-full px-4 max-w-md sm:max-w-none mx-auto">
             <Button
               size="lg"
-              className="bg-accent hover:bg-accent/90 text-white shadow-elegant hover:shadow-glow transition-smooth hover:scale-105 text-lg px-8 py-6 font-bold"
+              className="bg-accent hover:bg-accent/90 text-white shadow-elegant hover:shadow-glow transition-smooth hover:scale-105 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 font-bold w-full sm:w-auto"
               onClick={() => document.getElementById('vision')?.scrollIntoView({ behavior: 'smooth' })}
             >
               See My Vision
             </Button>
             <Button
               size="lg"
-              className="bg-card text-card-foreground border-2 border-card-foreground/20 hover:bg-card-foreground hover:text-card transition-smooth hover:scale-105 text-lg px-8 py-6 font-semibold"
+              className="bg-card text-card-foreground border-2 border-card-foreground/20 hover:bg-card-foreground hover:text-card transition-smooth hover:scale-105 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 font-semibold w-full sm:w-auto"
               onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Vote Now
@@ -50,24 +50,24 @@ const Hero = () => {
           </div>
 
           {/* Proof of Dedication */}
-          <div className="max-w-2xl mx-auto bg-card/95 backdrop-blur-sm rounded-2xl p-8 shadow-elegant">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <Play className="w-6 h-6 text-primary" />
-              <h3 className="text-2xl font-bold text-card-foreground">Proof of Dedication</h3>
+          <div className="max-w-2xl mx-auto bg-card/95 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-elegant">
+            <div className="flex items-center justify-center gap-2 sm:gap-3 mb-4">
+              <Play className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
+              <h3 className="text-xl sm:text-2xl font-bold text-card-foreground">Proof of Dedication</h3>
             </div>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-sm sm:text-base text-muted-foreground mb-6">
               I ran <span className="font-bold text-primary">23 kilometers</span> to show you how committed I am to making a difference. This is not just a campaign—it's a promise.
             </p>
             <Button
               variant="default"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-card transition-smooth hover:scale-105"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-card transition-smooth hover:scale-105 w-full sm:w-auto text-sm sm:text-base"
               asChild
             >
               <a
                 href="https://www.youtube.com/shorts/NIVE2tTimK4"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2"
+                className="inline-flex items-center gap-2 justify-center"
               >
                 Watch My 23km Run
                 <ExternalLink className="w-4 h-4" />

@@ -39,14 +39,14 @@ const Vision = () => {
     <section id="vision" className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="container mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-foreground mb-4">
+        <div className="text-center mb-12 sm:mb-16 animate-fade-in-up px-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground mb-4">
             What I'll Do as CEO
           </h2>
-          <p className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+          <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-6">
             The project I am working on:
           </p>
-          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             I'm building a <span className="font-semibold text-primary">Student Dashboard and Communication Platform</span> that will revolutionize how we study, collaborate, and excel together.
           </p>
         </div>
@@ -75,11 +75,11 @@ const Vision = () => {
         </div>
 
         {/* Vision Statement */}
-        <div className="bg-primary/5 rounded-3xl p-8 sm:p-12 text-center shadow-card animate-fade-in-up">
-          <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-4">
+        <div className="bg-primary/5 rounded-3xl p-6 sm:p-8 md:p-12 text-center shadow-card animate-fade-in-up mx-4">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-4">
             Making Studies Collaborative, Fun, and Efficient
           </h3>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             This platform isn't just an idea—I'm actively developing it. When I become CEO, I'll have the resources and support to launch it for all students, making our school life more connected, productive, and enjoyable.
           </p>
         </div>
